@@ -12,5 +12,9 @@ int main(){
 
     printf("Sua idade menos 1: %d\n", idade);
 
+    idade = idade + 1;
+    
+    printf("Sua idade original: %d\n", idade);
+    
     return 0;
 }
